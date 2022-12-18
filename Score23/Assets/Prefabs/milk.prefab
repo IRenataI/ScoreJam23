@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2574619320873473797}
   - component: {fileID: 314713111457539023}
   - component: {fileID: 1413989862728069549}
-  - component: {fileID: 1413989862728069550}
   - component: {fileID: 5079800306872139327}
+  - component: {fileID: -3263078726882615386}
   m_Layer: 0
   m_Name: milk
   m_TagString: Untagged
@@ -99,6 +99,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.08054464, y: 0.22442986, z: 0.08045799}
   m_Center: {x: 0, y: 0.11221493, z: 0.00000002421439}
+<<<<<<< Updated upstream
 --- !u!114 &1413989862728069550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,6 +113,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotButton: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!95 &5079800306872139327
 Animator:
   serializedVersion: 5
@@ -132,3 +135,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &-3263078726882615386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2260500904047936026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50030e2a49bdd9438dba9a73417b5cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: -15
+  Range: 0
