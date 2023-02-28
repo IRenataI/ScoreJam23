@@ -8,6 +8,7 @@ public class CookieBoss : MonoBehaviour
     [SerializeField] private GameObject Weapon;
     [SerializeField] private float spawnerTime;
     [SerializeField] private int enemiesToSpawnCount;
+    [SerializeField] private bool TimeDebug = false;
     private float _timer;
     
     
@@ -22,7 +23,7 @@ public class CookieBoss : MonoBehaviour
     private void Update()
     {
         _timer += Time.fixedDeltaTime;
-        Debug.Log(_timer);
+        if(TimeDebug) Debug.Log(_timer);
         if (_timer > spawnerTime)
         {
             if(enemiesHolder.transform.childCount <= 1)
